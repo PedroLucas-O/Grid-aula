@@ -1,0 +1,20 @@
+header{
+    background-color: brown;
+    display: grid;
+    grid-template: 1fr / 1fr 1fr;
+}
+
+/* .logo{
+} */
+
+.botao{
+    display: grid;
+    justify-content: end;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 400px 1fr;
+    border: 7px;
+    border-color: black;
+}
